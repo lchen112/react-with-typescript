@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.Image {
+  width: 100px;
+  height: 100px;
+}
+
+.Person-Card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 1px solid peru;
+  align-items: center;
+}
+
+.Person-Name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Registration-form {
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Input {
+  height: 40px;
+  border-radius: 5px;
+}
